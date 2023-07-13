@@ -2,25 +2,64 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Add the CSS code here */
+  </style>
 </head>
 <body>
-  <h1>Connect the Dots Game</h1>
-  <div id="gameBoard">
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
+  <div class="container">
+    <h1 id="headline" >Connect the Dots Game</h1>
+    <div class="rules">
+      <h2>Rules</h2>
+      <p>Click the buttons shown on the screen.</p>
+    </div>
+    <div class="updates">
+      <h2>Updates</h2>
+      <p id="randomAlphabet"></p>
+    </div>
+    <div id="gameBoard">
+      
+      <!-- Add more dots here -->
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <button id="startButton">Start</button>
+    <div id="completionScreen" class="hidden">
+      <h2>Congratulations!</h2>
+      <p>You have completed the given alphabet.</p>
+      <button id="newGameButton">New Game</button>
+    </div>
   </div>
-  <button id="startButton">Start</button>
-
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
 
 
 
