@@ -3,6 +3,11 @@ const dotSequences = {
     A: [7, 4, 1, 2, 3, 6, 9, 5],
     B: [1, 2, 3, 4, 5, 7, 8, 9],
     C: [3, 2, 1, 4, 7, 8, 9],
+    D: [3, 2, 1, 4, 7, 8, 9, 6],
+    E: [3, 2, 1, 4, 5, 7, 8, 9],
+    F: [3, 2, 1, 4, 5, 7],
+    H: [1, 4, 7, 5, 3, 6, 9],
+    I: [1, 2, 3, 5, 7, 8, 9],
     
 
   };
@@ -115,4 +120,3 @@ const dotSequences = {
     const randomIndex = Math.floor(Math.random() * alphabets.length);
     return alphabets[randomIndex];
   }
-  
